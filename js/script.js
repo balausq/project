@@ -1,26 +1,43 @@
-// "use strict";
+// const lines = 5;
+// let result = '';
 
+// for (let i = 0; i <= lines; i++) {
+//     for (let j = 0; j < lines - i; j++) {
+//         result += " ";
+//     }
+//     for (let j = 0; j < 2 * i + 1; j++) {
+//         result += "*";
+//     }
+//     result += "\n";
+// }
 
-// let number = 5;
-// const leftBorderWidth = 1;
+// console.log(result)
 
-// number = 10;
-// console.log(number);
+// "use strict"
 
-// const arr = {
-//     a: 1,
-//     1: 'b',
-//     2: 'c'
-// };
+// function showFirstMessage(text) {
+//     console.log(text);
+// }
 
-// const b = 'k';
+// showFirstMessage("Hello World!");
 
-// arr[b] = '1234';
+// function test() {
+//     for (let i = 0; i < 5; i++) {
+//         console.log(i);
+//         if (i === 3) return
+//     }
+//     console.log("Done");
+// }
 
-// console.log(arr.k);
+// function sayHello(nameIs) {
+//     return 'Привет, ${nameIs}!';
+// }
 
-const isChecked = true,
-      isClosed = true,
-      isMine = false;
+// sayHello("Alex");
 
-console.log(isChecked && isClosed && isMine);
+// function sayHello(name) {
+//     return `Привет, ${name}!`;
+// }
+
+// sayHello('Alex');
+
